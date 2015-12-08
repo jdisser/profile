@@ -1,0 +1,168 @@
+body {
+  font-family: "Arial";
+  font-weight: lighter;
+  /*margin-top: 175px;*/
+
+}
+body h1{
+  font-weight: 500;
+
+}
+body h2{
+  font-weight: 500;
+}
+body h3{
+  font-weight: 500;
+}
+body h4{
+  font-weight: 500;
+}
+body p{
+
+}
+/*-----------header------------*/
+.header{
+  height: 175px;
+  background-color: lightgrey;
+  position:fixed;
+  width: 100%;
+  margin-top: 0;
+  /*opacity: 50%;*/
+  top:0;
+  border-bottom: 2px solid red;
+}
+.contact{
+  margin: 0 20px;
+  font-family: monospace;
+}
+.contact h2{
+  margin-top: 5px;
+}
+.contact h1{
+  margin: 5px 5px;
+}
+.logo img{
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 0px 20px;
+}
+.logo a i{
+  color: blue;
+}
+.nav{
+  float: right;
+  margin: 20px;
+}
+.nav ul{
+  list-style: none;
+
+}
+.nav li{
+  margin: 5px 5px;
+  padding: 5px;
+
+}
+/*------------hero--------------*/
+.Hero{
+
+  background-image: url("../images/hero.jpg");
+  background-size: contain;
+  padding: 10px;
+  margin-top: 175px;
+  margin-bottom: 0;
+  font-size: 1.5em;
+
+
+
+}
+.hero_text{
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 20px;
+  color: white;
+
+
+
+}
+.hero_text a i{
+  color: white;
+  margin: 10px;
+}
+.hero_text a:hover{
+  color: yellow;
+}
+.hero_text h2{
+  color: gold;
+}
+.hero_text h3{
+  color: gold;
+}
+.hero p{
+
+}
+/*-------------section-----------*/
+.section{
+  padding: 20px;
+  border-bottom: 2px solid black;
+
+}
+.section_text{
+  width: 100%;
+
+
+}
+.section_link{
+  padding-top: 175px;
+  color: white;
+}
+
+.Features{
+  height: auto;
+}
+
+
+.feature{
+  width: 30%;
+  display: inline-block;
+  padding: 5px;
+
+
+}
+.feature img{
+  width: 100%;
+}
+.feature p{
+
+}
+/*-------------------individual sections----------------------*/
+#full_stack{
+  background-color: LightSteelBlue;
+  margin-top: 0;
+}
+#startup{
+  background-color: Gainsboro;
+}
+#product{
+  background-color: LightSteelBlue;
+}
+/*--------------------Footer-----------------------------------*/
+.footer{
+  background-color: gray;
+  color: lightblue;
+
+}
+.copyright{
+  width: 25%;
+  margin: auto;
+  padding: 10px;
+}
+.footer a{
+  color: gold;
+}
+
+.backtotop{
+  padding: 30px;
+  margin-top: 0;
+  float: left;
+}

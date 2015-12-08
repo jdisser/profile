@@ -1,0 +1,224 @@
+/* #### Mobile Phones Portrait or Landscape #### */
+/*@media screen and (max-device-width: 640px){
+}*/
+
+/* #### Tablets Portrait or Landscape #### */
+/*@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+}*/
+
+/* #### Desktops #### */
+/*@media screen and (min-width: 1024px){
+}*/
+
+
+
+
+body {
+  font-family: "Arial";
+  font-weight: lighter;
+  margin-top: 0;
+  /*margin-top: 175px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+body h1{
+  font-weight: 500;
+
+}
+body h2{
+  font-weight: 500;
+}
+body h3{
+  font-weight: 500;
+}
+body h4{
+  font-weight: 500;
+}
+body p{
+
+}
+/*-----------header------------*/
+.header{
+  height: auto;
+  background-color: lightgrey;
+  position:fixed;
+  width: 100%;
+  margin-top: 0;
+  /*opacity: 50%;*/
+  /*top:0;*/
+  border-bottom: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.contact{
+  margin: 0 20px;
+  font-family: monospace;
+  flex: 0 0 15em;
+}
+.contact h2{
+  margin-top: 5px;
+}
+.contact h1{
+  margin: 5px 5px;
+}
+.logo{
+  flex: 0 0 15em;
+}
+.logo img{
+  /*width: 150px;
+  height: 150px;*/
+  width: 10em;
+  height: 10em;
+  /*float: left;*/
+  margin: 10px 20px;
+}
+.logo a i{
+  color: blue;
+}
+.nav{
+  /*float: right;*/
+  flex: 0 0 15em;
+  margin: 20px;
+}
+.nav ul{
+  list-style: none;
+
+}
+.nav li{
+  margin: 5px 5px;
+  padding: 5px;
+
+}
+/*------------hero--------------*/
+.Hero{
+
+  background-image: url("../images/hero.jpg");
+  background-size: contain;
+  width: 100%;
+  padding: 10px;
+  margin-top: 175px;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+
+
+}
+.hero_text{
+  /*width: 35%;*/
+  flex: 0 0 25em;
+  /*margin-left: 10%;*/
+  margin-top: 20px;
+  color: white;
+
+
+
+}
+.hero_text a i{
+  color: white;
+  margin: 10px;
+
+}
+.hero_text a:hover{
+  color: yellow;
+}
+.hero_text h2{
+  color: gold;
+}
+.hero_text h3{
+  color: gold;
+}
+
+/*-------------section-----------*/
+.section{
+  padding: 20px;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+
+}
+.section_text{
+  width: 30em;
+  flex: auto;
+  font-size: 1.5em;
+}
+.section_text h2{
+  font-size: 2em;
+}
+.section_link{
+  padding-top: 175px;
+  color: white;
+}
+
+.Features{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.feature{
+  /*width: 30%;*/
+  /*display: inline-block;*/
+  flex: 0 0 50em;
+  padding: 5px;
+
+
+}
+.feature img{
+  width: 80%;
+}
+.feature p{
+  font-size: 1.0em;
+}
+/*-------------------individual sections----------------------*/
+#full_stack{
+  background-color: LightSteelBlue;
+  margin-top: 0;
+}
+#startup{
+  background-color: Gainsboro;
+}
+#product{
+  background-color: LightSteelBlue;
+}
+#hero{
+  padding-top: 175px;
+}
+/*--------------------Footer-----------------------------------*/
+.footer{
+  background-color: gray;
+  color: lightblue;
+  width: 100%;
+
+}
+.copyright{
+  width: 25%;
+  margin: auto;
+  padding: 10px;
+}
+.footer a{
+  color: gold;
+}
+
+.backtotop{
+  padding: 30px;
+  margin-top: 0;
+  float: left;
+}
